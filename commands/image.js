@@ -11,7 +11,6 @@ module.exports = {
     permissions: [],
     description: 'images yaaay',
     async execute(client, message, cmd, args){
-        if (message.author.id != "663810564534829075") return message.channel.send('this command is in lockdown because it DOESNT FUCKING WORK ON MY RASPBERRY PI LKJBSLKJFBSLFJB');
         const image_query = args.join(' ');
         if (!image_query) return message.channel.send("What are you trying to search, if it's porn typing nothing ain't gonna get you there.");
 

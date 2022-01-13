@@ -20,8 +20,6 @@ module.exports = {
         else{
             return message.reply('100 is the limit and 2 is the bottom, take it or leave it.');
         }
-        
-
        
 
     }

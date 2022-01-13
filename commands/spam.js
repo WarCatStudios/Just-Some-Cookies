@@ -38,16 +38,6 @@ module.exports = {
                     return message.channel.send('too high');
 
                 }
-                if (mentiontarget != message.author){
-                    console.log(profileData.admin);
-                    if (profileData.admin === 1 || profileData.tester === 4 || profileData.dev === 4){
-                        var spamTime = true;
-                        console.log(spamTime);
-                    }
-                    else {
-                        return message.channel.send('you can\'t spam ping, you need to be an admin, tester, or dev to spam ping');
-                    }
-                }
                 
                 if (!messageCap){
                     return message.channel.send('how many messages you wanna send')
